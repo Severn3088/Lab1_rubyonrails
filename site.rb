@@ -4,7 +4,7 @@ require 'bundler/setup'
  set :port, 4000
  set :bind, '0.0.0.0'
  get '/' do
-   "I'm alive!"
+   erb :index
  end
 
 get '/italian' do
@@ -16,5 +16,5 @@ get '/romanian' do
 end
 
 get '/cave_johnson' do
-  "I don't want your damn lemons, what am I supposed to do with these?"
+  "When life gives you lemons, make life take them back! I don't want your damn lemons, what am I supposed to do with these?"
 end
