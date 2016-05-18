@@ -10,3 +10,11 @@ require 'bundler/setup'
 get '/italian' do
   "Ciao!"
 end
+
+get '/romanian' do
+  "La revedere!"
+end
+
+get '/cave_johnson' do
+  "I don't want your damn lemons, what am I supposed to do with these?"
+end
