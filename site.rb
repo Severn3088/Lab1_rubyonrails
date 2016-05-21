@@ -18,3 +18,7 @@ end
 get '/cave_johnson' do
   "When life gives you lemons, make life take them back! I don't want your damn lemons, what am I supposed to do with these?"
 end
+
+ get '/read_more' do
+   erb :read_more
+ end
